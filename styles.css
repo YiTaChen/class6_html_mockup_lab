@@ -97,12 +97,33 @@ h3 {
   grid-row: 2/3;
   width: 100%;
 }
-
-.pos-div-img {
-  padding-top: 5%;
+.img-css {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7%;
+  padding-bottom: 0px;
   grid-column: 1/2;
   grid-row: 2/3;
-  width: 100%;
+  width: 100px;
+}
+.pos-div-img {
+  background-color: white;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: 1px solid black;
+  height: 120px;
+  text-align: center; /* 文字置中 */
+  display: inline-block;
+}
+
+.caption {
+  margin-top: 0px; /* 與圖片間距 */
+  background-color: white; /* 白色背景 */
+  padding: 5px; /* 內部填充 */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 10px; /* 字體大小 */
 }
 
 .article1-css {
