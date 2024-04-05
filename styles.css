@@ -1,4 +1,143 @@
+.green-bg {
+  background-color: rgb(54, 188, 177);
+}
 
+h1,
+h2,
+h3 {
+  padding-left: 5%;
+}
+.padding-right-5 {
+  padding-right: 5%;
+}
+.padding-left-5 {
+  padding-left: 5%;
+}
+.padding-left-4 {
+  padding-left: 4%;
+}
+.font-color-white {
+  color: rgb(255, 255, 255);
+}
 
+.toolbar {
+  background-color: #0a6fb2;
+  padding: 15px 0;
+}
 
+.toolbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
 
+.toolbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.toolbar li:last-child {
+  margin-right: 0;
+}
+
+.toolbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.toolbar a:hover {
+  background-color: #0a6fb2;
+}
+
+.section-bg {
+  background-color: #f7dcb2;
+  padding-top: 2%;
+  grid-gap: 30px;
+  padding-left: 5%;
+  border: 1px solid black;
+
+  /* grid-template-rows: repeat(auto-fit, minmax(30px, 2fr)); /* 調整列寬度 */
+}
+
+.section1-grid {
+  display: grid;
+
+  grid-template-columns: 4fr 10px 1fr 10px;
+  grid-template-rows: 10% 60% 10%;
+}
+
+.div_test {
+}
+
+.section2-grid {
+  display: grid;
+  grid-template-columns: 1fr 10px 4fr 10px;
+  grid-template-rows: 10% 60% 10%;
+}
+
+.list-css {
+  background-color: white;
+  width: 110px;
+  height: 80px;
+  padding-top: 10px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.pos23 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.pos-img {
+  padding-top: 5%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 100%;
+}
+
+.pos-div-img {
+  padding-top: 5%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 100%;
+}
+
+.article1-css {
+  padding-top: 5.5%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 50px;
+}
+
+.article2-css {
+  padding-top: 0%;
+  grid-column: 3/4;
+  grid-row: 2/5;
+  height: 50px;
+}
+
+.footer-css {
+  background-color: #e60f7e;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #fff;
+  text-align: left;
+}
+
+.yello-bg {
+  background-color: yellow;
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+.blue-bg {
+  background-color: blue;
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+.purple-bg {
+  background-color: purple;
+}
